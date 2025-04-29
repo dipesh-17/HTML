@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="Successfully" method="post">
+      <label for="username"> Enter Username :</label><br />
+      <input type="text" name="username" id="username" /><br /><br />
+      Enter Password : <br />
+      <input type="Password" name="password" /><br /><br />
+      <label for="moblieNo">Enter Mobile No:</label><br />
+      <input type="number" name="moblieNo" /><br /><br />
+      <label for="email">Enter Email ID: </label><br />
+      <input type="email" name="email" /><br /><br />
+      Gender: <input type="radio" name="gender" value="male" />Male
+      <input type="radio" name="gender" value="female" />Female
+      <input type="radio" name="gender" value="other" />Other<br />
+      Subject: <input type="checkbox" name="Physics" />Physics
+      <input type="checkbox" name="Maths" />Maths
+      <input type="checkbox" name="Chemistry" />Chemistry<br /><br />
+      State: <input type="text" name="state" list="statelist" />
+      <datalist id="statelist">
+        <option>Maharashtra</option>
+        <option>Bangal</option>
+        <option>Kolkata</option>
+        <option>J&k</option>
+      </datalist>
+      <br />
+      <br />
+      <label for="dob">Enter date of birth: </label>
+      <input type="date" name="dob" /><br /><br />
+      <label for="collegename">Enter college name: </label>
+      <textarea
+        id="collegename"
+        name="collegename"
+        rows="4"
+        cols="30"
+      ></textarea
+      ><br /><br />
+      <label for="image">Select image: </label>
+      <input type="file" name="image" /><br /><br />
+      <input type="submit" name="submit" />
+      <input type="reset" name="reset" value="reset" /><br />
+    </form>
+  </body>
+</html>
